@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="183" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="cmbFigura" min="-2" pref="97" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="230" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="panelTriangulo" max="32767" attributes="0"/>
+                  <Component id="panelCirculo" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="88" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="panelCuadrado" min="-2" max="-2" attributes="0"/>
+                  <Component id="panelRectangulo" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cmbFigura" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="panelCirculo" max="32767" attributes="0"/>
+                  <Component id="panelCuadrado" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="panelTriangulo" max="32767" attributes="0"/>
+                  <Component id="panelRectangulo" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="cmbFigura">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbFiguraActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seleccionar Figura"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="panelCuadrado">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jblLadoCuadrado" alignment="0" pref="46" max="32767" attributes="0"/>
+                              <Component id="jblLadoCuadrado1" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jblLadoCuadrado2" pref="116" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="txtLadoCuadrado" alignment="1" pref="58" max="32767" attributes="0"/>
+                      <Component id="txtAreaCuadrado" alignment="1" max="32767" attributes="0"/>
+                      <Component id="txtPerimetroCuadrado" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="btnCalcularCuadrado" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtLadoCuadrado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAreaCuadrado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPerimetroCuadrado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnCalcularCuadrado" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lado"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLadoCuadrado">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLadoCuadradoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Area"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Perimetro"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAreaCuadrado">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPerimetroCuadrado">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPerimetroCuadradoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCalcularCuadrado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calcular"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcularCuadradoActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelCirculo">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="btnCalcularCirculo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="71" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jblLadoCuadrado3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jblLadoCuadrado4" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="txtAreaCirculo" max="32767" attributes="0"/>
+                      <Component id="txtRadio" max="32767" attributes="0"/>
+                      <Component id="txtPerimetroCirculo" alignment="0" pref="64" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtRadio" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtAreaCirculo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jblLadoCuadrado3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtPerimetroCirculo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jblLadoCuadrado4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnCalcularCirculo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="69" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="txtRadio">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Radio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCalcularCirculo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calcular"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcularCirculoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAreaCirculo">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAreaCirculoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPerimetroCirculo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Area"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Perimetro"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelRectangulo">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jblLadoCuadrado13" pref="39" max="32767" attributes="0"/>
+                              <Component id="jblLadoCuadrado12" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtAlturaRectangulo" max="32767" attributes="0"/>
+                              <Component id="txtBaseRectangulo" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jblLadoCuadrado14" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jblLadoCuadrado15" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtAreaRectangulo" pref="59" max="32767" attributes="0"/>
+                              <Component id="txtPerimetroRectangulo" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="btnCalcularRwctangulo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtBaseRectangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAlturaRectangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jblLadoCuadrado14" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAreaRectangulo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jblLadoCuadrado15" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPerimetroRectangulo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btnCalcularRwctangulo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Base"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Altura"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtBaseRectangulo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAlturaRectangulo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Area"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Perimetro"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAreaRectangulo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPerimetroRectangulo">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCalcularRwctangulo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calcular"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcularRwctanguloActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelTriangulo">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jblLadoCuadrado9" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jblLadoCuadrado7" max="32767" attributes="0"/>
+                              <Component id="jblLadoCuadrado6" max="32767" attributes="0"/>
+                              <Component id="jblLadoCuadrado5" max="32767" attributes="0"/>
+                              <Component id="jblLadoCuadrado11" alignment="0" pref="104" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jblLadoCuadrado8" min="-2" pref="31" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jblLadoCuadrado10" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="txtAreaTriangulo" alignment="0" pref="52" max="32767" attributes="0"/>
+                      <Component id="txtBaseTriangulo" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtLado2Triangulo" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtLado1Triangulo" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtLado3Triangulo" alignment="0" max="32767" attributes="0"/>
+                      <Component id="txtAlturaTriangulo" max="32767" attributes="0"/>
+                      <Component id="txtPerimetroTriangulo" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="btnCalcularTriangulo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtLado1Triangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtLado2Triangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtLado3Triangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtBaseTriangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAlturaTriangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAreaTriangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jblLadoCuadrado11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPerimetroTriangulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
+                  <Component id="btnCalcularTriangulo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lado 1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lado 2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lado 3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLado1Triangulo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLado2Triangulo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLado3Triangulo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Base"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Altura"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtBaseTriangulo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAlturaTriangulo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Area"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jblLadoCuadrado11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Perimetro"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAreaTriangulo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPerimetroTriangulo">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCalcularTriangulo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calcular"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcularTrianguloActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
